@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Daolu</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="sticky top-0 bg-white border-b border-brand-gray-100">
+      <nav
+        class="max-w-[77.375rem] mx-auto flex items-center justify-between py-3 lg:py-5 px-4"
+      >
+        <!-- Logo -->
+        <a href="./index.html">
+          <img
+            src="./assets/images/logo.png"
+            alt="Logo"
+            class="w-36 h-10 shrink-0"
+          />
+        </a>
+
+        <!-- Links -->
+        <ul class="hidden lg:flex items-center gap-5 xl:gap-8 text-sm">
+          <li>
+            <a
+              href="./services.html"
+              class="hover:text-black transition-all duration-300"
+              >Our Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="./places-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Places API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./traffic-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./routing-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./map-display-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./tracking-logictics-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contact.html"
+              class="hover:text-black transition-all duration-300"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="fixed inset-0 z-50 bg-white transform -translate-x-full transition-transform duration-300"
+      >
+        <div class="flex justify-between items-center p-4">
+          <!-- Logo -->
+          <a href="./index.html">
+            <img src="./assets/images/logo.png" alt="Logo" class="w-36 h-10" />
+          </a>
+          <button id="mobile-menu-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul class="flex flex-col items-start gap-8 p-4 text-sm">
+          <li>
+            <a href="./services.html" class="mobile-menu-link">Our Services</a>
+          </li>
+          <li>
+            <a href="./places-apis.html" class="mobile-menu-link">Places API</a>
+          </li>
+          <li>
+            <a href="./traffic-apis.html" class="mobile-menu-link"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a href="./routing-apis.html" class="mobile-menu-link"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a href="./map-display-apis.html" class="mobile-menu-link"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a href="./tracking-logictics-apis.html" class="mobile-menu-link"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html" class="mobile-menu-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Location Services -->
+      <section class="space-y-12 lg:space-y-20">
+        <h1>Our location Services</h1>
+
+        <div class="space-y-8 lg:space-y-12">
+          <div class="space-y-5">
+            <h2>SDKs</h2>
+            <p>
+              Effortlessly create a fully-featured mapping, navigation, or
+              automotive solution.
+            </p>
+          </div>
+
+          <div class="space-y-5">
+            <h3>Maps SDKs</h3>
+            <p>
+              Add new dimensions to your applications with Our’s flexible Maps
+              SDK. Develop using precise, up-to-date maps that can be tailored
+              to fit your specific needs. Available on:
+            </p>
+
+            <ul class="list-disc space-y-3 pl-5">
+              <li>Android</li>
+              <li>iOS</li>
+              <li>Web</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

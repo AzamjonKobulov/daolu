@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Daolu | Places APIs</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="sticky top-0 bg-white border-b border-brand-gray-100">
+      <nav
+        class="max-w-[77.375rem] mx-auto flex items-center justify-between py-3 lg:py-5 px-4"
+      >
+        <!-- Logo -->
+        <a href="./index.html">
+          <img
+            src="./assets/images/logo.png"
+            alt="Logo"
+            class="w-36 h-10 shrink-0"
+          />
+        </a>
+
+        <!-- Links -->
+        <ul class="hidden lg:flex items-center gap-5 xl:gap-8 text-sm">
+          <li>
+            <a
+              href="./services.html"
+              class="hover:text-black transition-all duration-300"
+              >Our Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="./places-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Places API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./traffic-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./routing-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./map-display-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./tracking-logictics-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contact.html"
+              class="hover:text-black transition-all duration-300"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="fixed inset-0 z-50 bg-white transform -translate-x-full transition-transform duration-300"
+      >
+        <div class="flex justify-between items-center p-4">
+          <!-- Logo -->
+          <a href="./index.html">
+            <img src="./assets/images/logo.png" alt="Logo" class="w-36 h-10" />
+          </a>
+          <button id="mobile-menu-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul class="flex flex-col items-start gap-8 p-4 text-sm">
+          <li>
+            <a href="./services.html" class="mobile-menu-link">Our Services</a>
+          </li>
+          <li>
+            <a href="./places-apis.html" class="mobile-menu-link">Places API</a>
+          </li>
+          <li>
+            <a href="./traffic-apis.html" class="mobile-menu-link"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a href="./routing-apis.html" class="mobile-menu-link"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a href="./map-display-apis.html" class="mobile-menu-link"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a href="./tracking-logictics-apis.html" class="mobile-menu-link"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html" class="mobile-menu-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Location Services -->
+      <section class="space-y-10 lg:space-y-14">
+        <div class="space-y-5">
+          <h1>Places APIs</h1>
+
+          <div class="space-y-3">
+            <p>
+              Our suite of Places API products transforms the way businesses and
+              developers utilize location data. Whether you&apos;re delivering
+              fast, relevant search results with the Search API, optimizing data
+              processing through the Batch Search API, or translating geographic
+              coordinates with the Geocoding API, our tools empower your
+              operations to perform at their best.
+            </p>
+
+            <ul class="list-disc space-y-3 pl-5">
+              <li>
+                <a
+                  href="./contact.html"
+                  class="font-bold text-sm hover:underline underline-offset-2 transition-all duration-300"
+                  >Get started</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Texts -->
+        <div class="space-y-5">
+          <h3>Precision Search</h3>
+
+          <div class="space-y-3">
+            <p>
+              Leverage the Search API to deliver highly accurate and relevant
+              results, enhancing location-based queries to create optimal user
+              experiences and facilitate the seamless discovery of Points of
+              Interest (POIs).
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Efficient Large-Scale Data Processing</h3>
+
+          <div class="space-y-3">
+            <p>
+              Optimize data handling with the Batch Search API, designed to
+              process multiple queries efficiently in a single request, perfect
+              for large-scale operations.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Geocoding and Reverse Geocoding</h3>
+
+          <div class="space-y-3">
+            <p>
+              Harness the capabilities of our Geocoding APIs to convert
+              addresses and places into precise geographic coordinates, or vice
+              versa, enabling powerful location-based functionality.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Effortless Integration of Location Services</h3>
+
+          <div class="space-y-3">
+            <p>
+              Easily integrate APIs into your applications, whether you're
+              enhancing search functionality, managing large datasets, or
+              incorporating geocoding features to meet your specific needs.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Real-Time EV Charging Information</h3>
+
+          <div class="space-y-3">
+            <p>
+              Provide users with up-to-the-minute information on electric
+              vehicle (EV) charging stations through the EV Charging Stations
+              Availability API, simplifying the planning of efficient and
+              eco-friendly journeys.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Autocomplete for Smarter Searches</h3>
+
+          <div class="space-y-3">
+            <p>
+              Enhance user experience with autocomplete, quickly recognizing
+              entities within input queries and delivering the most relevant and
+              accurate search results in less time.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Precise Address Validation</h3>
+
+          <div class="space-y-3">
+            <p>
+              Accurately identify address numbers, street names, postal codes,
+              and Points of Interest (POIs) with our advanced address validation
+              features, supported by precise location data.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Comprehensive Geospatial Insights</h3>
+
+          <div class="space-y-3">
+            <p>
+              Utilize geospatial data across our API suite to drive informed
+              decision-making and enhance business intelligence, improving both
+              your applications and overall operations.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Search API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Provides flexible, single-line search for addresses and POIs,
+              accurately mapping coordinates to locations or Points of Interest.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Geocoding API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Efficiently converts addresses into precise geographic
+              coordinates, enhancing your location-based services.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Reverse Geocoding API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Transforms geographic coordinates into street addresses or
+              relevant geographic data, ideal for GPS-based tracking systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Charging Stations API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Receive updates every 15 sec on available charging spots,
+              connector types, and charging power specifications.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

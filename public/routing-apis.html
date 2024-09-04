@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Daolu | Routing APIs</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="sticky top-0 bg-white border-b border-brand-gray-100">
+      <nav
+        class="max-w-[77.375rem] mx-auto flex items-center justify-between py-3 lg:py-5 px-4"
+      >
+        <!-- Logo -->
+        <a href="./index.html">
+          <img
+            src="./assets/images/logo.png"
+            alt="Logo"
+            class="w-36 h-10 shrink-0"
+          />
+        </a>
+
+        <!-- Links -->
+        <ul class="hidden lg:flex items-center gap-5 xl:gap-8 text-sm">
+          <li>
+            <a
+              href="./services.html"
+              class="hover:text-black transition-all duration-300"
+              >Our Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="./places-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Places API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./traffic-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./routing-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./map-display-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./tracking-logictics-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contact.html"
+              class="hover:text-black transition-all duration-300"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="fixed inset-0 z-50 bg-white transform -translate-x-full transition-transform duration-300"
+      >
+        <div class="flex justify-between items-center p-4">
+          <!-- Logo -->
+          <a href="./index.html">
+            <img src="./assets/images/logo.png" alt="Logo" class="w-36 h-10" />
+          </a>
+          <button id="mobile-menu-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul class="flex flex-col items-start gap-8 p-4 text-sm">
+          <li>
+            <a href="./services.html" class="mobile-menu-link">Our Services</a>
+          </li>
+          <li>
+            <a href="./places-apis.html" class="mobile-menu-link">Places API</a>
+          </li>
+          <li>
+            <a href="./traffic-apis.html" class="mobile-menu-link"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a href="./routing-apis.html" class="mobile-menu-link"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a href="./map-display-apis.html" class="mobile-menu-link"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a href="./tracking-logictics-apis.html" class="mobile-menu-link"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html" class="mobile-menu-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Location Services -->
+      <section class="space-y-10 lg:space-y-14">
+        <div class="space-y-5">
+          <h1>Routing APIs</h1>
+
+          <div class="space-y-3">
+            <p>
+              Elevate your applications with advanced Routing APIs that offer
+              seamless navigation. Empower businesses to plan efficient routes
+              using features like optimized paths, precise navigation, and
+              alternative routes.
+            </p>
+
+            <ul class="list-disc space-y-3 pl-5">
+              <li>
+                <a
+                  href="./contact.html"
+                  class="font-bold text-sm hover:underline underline-offset-2 transition-all duration-300"
+                  >Get started</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Texts -->
+        <div class="space-y-5">
+          <h3>Precise Directions</h3>
+
+          <div class="space-y-3">
+            <p>
+              Receive clear, step-by-step instructions for every part of the
+              journey, ensuring confident navigation through cities, rural
+              areas, and beyond.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Route Planning and Optimization</h3>
+
+          <div class="space-y-3">
+            <p>
+              Assist businesses in planning optimized routes with real-time
+              traffic data, helping to cut operational costs and save time.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Live Traffic Information</h3>
+
+          <div class="space-y-3">
+            <p>
+              Avoid congestion and roadblocks with live traffic updates,
+              ensuring drivers reach their destinations on time.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Alternative Routes</h3>
+
+          <div class="space-y-3">
+            <p>
+              Quickly adapt to unexpected road conditions with flexible
+              alternative routes, keeping drivers on schedule.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Accurate Distance and ETAs</h3>
+
+          <div class="space-y-3">
+            <p>
+              Calculate precise travel times and distances to support efficient
+              business planning and operations.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Turn-by-Turn Directions</h3>
+
+          <div class="space-y-3">
+            <p>
+              Whether for deliveries or field service management, enjoy smooth
+              travel with accurate turn-by-turn directions.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Comprehensive Matrix Routing</h3>
+
+          <div class="space-y-3">
+            <p>
+              Solve complex logistical challenges by calculating travel times
+              and distances for multiple destinations simultaneously.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Long-Distance EV Routing</h3>
+
+          <div class="space-y-3">
+            <p>
+              Design tailored routes for electric vehicles, incorporating
+              charging stops based on vehicle consumption and charging models.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Routing API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Leverage dynamic speed data to enhance road safety and support
+              advanced driver-assistance systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Matrix Routing API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Provide map content that supports predictive and safer advanced
+              driver-assistance systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Waypoint Optimization API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Optimize speed, braking, and transmission to improve safety and
+              fuel efficiency.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Long Distance EV Routing API</h3>
+
+          <div class="space-y-3">
+            <p>
+              Navigate EV drivers with intuitive routing that extends their
+              range.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

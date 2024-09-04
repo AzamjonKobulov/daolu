@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/Halvetica-BoldOblique.eot");
+  src: url("./public/assets/font/Halvetica-BoldOblique.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/Halvetica-BoldOblique.woff2") format("woff2"),
+    url("./public/assets/font/Halvetica-BoldOblique.woff") format("woff"),
+    url("./public/assets/font/Halvetica-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/Halvetica-Compressed.eot");
+  src: url("./public/assets/font/Halvetica-Compressed.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/Halvetica-Compressed.woff2") format("woff2"),
+    url("./public/assets/font/Halvetica-Compressed.woff") format("woff"),
+    url("./public/assets/font/Halvetica-Compressed.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/Halvetica-Oblique.eot");
+  src: url("./public/assets/font/Halvetica-Oblique.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/Halvetica-Oblique.woff2") format("woff2"),
+    url("./public/assets/font/Halvetica-Oblique.woff") format("woff"),
+    url("./public/assets/font/Halvetica-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/Halvetica.eot");
+  src: url("./public/assets/font/Halvetica.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/Halvetica.woff2") format("woff2"),
+    url("./public/assets/font/Halvetica.woff") format("woff"),
+    url("Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/HalveticaRounded-Bold.eot");
+  src: url("./public/assets/font/HalveticaRounded-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/HalveticaRounded-Bold.woff2") format("woff2"),
+    url("./public/assets/font/HalveticaRounded-Bold.woff") format("woff"),
+    url("./public/assets/font/HalveticaRounded-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/Halvetica-Bold.eot");
+  src: url("./public/assets/font/Halvetica-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/Halvetica-Bold.woff2") format("woff2"),
+    url("./public/assets/font/Halvetica-Bold.woff") format("woff"),
+    url("./public/assets/font/Halvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./public/assets/font/Halvetica-Light.eot");
+  src: url("./public/assets/font/Halvetica-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./public/assets/font/Halvetica-Light.woff2") format("woff2"),
+    url("./public/assets/font/Halvetica-Light.woff") format("woff"),
+    url("./public/assets/font/Halvetica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-halvetica text-brand-dark pb-48 lg:pb-[18.75rem];
+  }
+
+  h1 {
+    @apply font-bold text-4xl/[2.625rem] lg:text-5xl/[3.5rem];
+  }
+
+  h2 {
+    @apply font-bold text-2xl/[1.875rem] lg:text-[2rem]/[2.3438rem];
+  }
+
+  h3 {
+    @apply font-bold text-lg/6 lg:text-2xl/8;
+  }
+
+  p,
+  ul {
+    @apply text-sm;
+  }
+
+  li {
+    @apply pl-2 lg:pl-4;
+  }
+
+  section {
+    @apply max-w-base mx-auto py-10 lg:py-20 px-4;
+  }
+}
+  

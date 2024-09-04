@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Daolu | Traffic APIs</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="sticky top-0 bg-white border-b border-brand-gray-100">
+      <nav
+        class="max-w-[77.375rem] mx-auto flex items-center justify-between py-3 lg:py-5 px-4"
+      >
+        <!-- Logo -->
+        <a href="./index.html">
+          <img
+            src="./assets/images/logo.png"
+            alt="Logo"
+            class="w-36 h-10 shrink-0"
+          />
+        </a>
+
+        <!-- Links -->
+        <ul class="hidden lg:flex items-center gap-5 xl:gap-8 text-sm">
+          <li>
+            <a
+              href="./services.html"
+              class="hover:text-black transition-all duration-300"
+              >Our Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="./places-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Places API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./traffic-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./routing-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./map-display-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./tracking-logictics-apis.html"
+              class="hover:text-black transition-all duration-300"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contact.html"
+              class="hover:text-black transition-all duration-300"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="fixed inset-0 z-50 bg-white transform -translate-x-full transition-transform duration-300"
+      >
+        <div class="flex justify-between items-center p-4">
+          <!-- Logo -->
+          <a href="./index.html">
+            <img src="./assets/images/logo.png" alt="Logo" class="w-36 h-10" />
+          </a>
+          <button id="mobile-menu-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul class="flex flex-col items-start gap-8 p-4 text-sm">
+          <li>
+            <a href="./services.html" class="mobile-menu-link">Our Services</a>
+          </li>
+          <li>
+            <a href="./places-apis.html" class="mobile-menu-link">Places API</a>
+          </li>
+          <li>
+            <a href="./traffic-apis.html" class="mobile-menu-link"
+              >Traffic API</a
+            >
+          </li>
+          <li>
+            <a href="./routing-apis.html" class="mobile-menu-link"
+              >Routing API</a
+            >
+          </li>
+          <li>
+            <a href="./map-display-apis.html" class="mobile-menu-link"
+              >Map API</a
+            >
+          </li>
+          <li>
+            <a href="./tracking-logictics-apis.html" class="mobile-menu-link"
+              >Tracking & Logistics API</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html" class="mobile-menu-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Location Services -->
+      <section class="space-y-10 lg:space-y-14">
+        <div class="space-y-5">
+          <h1>Traffic APIs</h1>
+
+          <div class="space-y-3">
+            <p>
+              Traffic APIs seamlessly integrate real-time and historical traffic
+              data, helping your users stay ahead of congestion. Developers can
+              utilize these APIs to enhance applications, boost transportation
+              efficiency, and save time and fuel. Whether for drivers, fleets,
+              on-demand services (like ride-hailing and food delivery), or
+              traffic management authorities, our solutions reduce stress and
+              improve overall traffic management
+            </p>
+
+            <ul class="list-disc space-y-3 pl-5">
+              <li>
+                <a
+                  href="./contact.html"
+                  class="font-bold text-sm hover:underline underline-offset-2 transition-all duration-300"
+                  >Get started</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Texts -->
+        <div class="space-y-5">
+          <h3>Global Traffic Coverage</h3>
+
+          <div class="space-y-3">
+            <p>
+              Our extensive network ensures access to the most current and
+              accurate traffic information in over 160 countries.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Updated Every 10 Seconds</h3>
+
+          <div class="space-y-3">
+            <p>
+              By analyzing billions of anonymized data points every 10 seconds,
+              we can predict traffic patterns before they develop.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Comprehensive Road Network Coverage</h3>
+
+          <div class="space-y-3">
+            <p>
+              We monitor over 7 billion kilometers of the global road network
+              daily, ensuring comprehensive coverage.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Traffic Prediction</h3>
+
+          <div class="space-y-3">
+            <p>
+              We combine actual and forecasted vehicle speeds for each upcoming
+              road segment, enabling intelligent route planning.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Lane-Level Precision for Accurate ETAs</h3>
+
+          <div class="space-y-3">
+            <p>
+              We calculate speeds at the lane level, providing detailed traffic
+              information and more precise estimated times of arrival (ETAs).
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Early Safety Warnings</h3>
+
+          <div class="space-y-3">
+            <p>
+              Drivers receive timely alerts about upcoming traffic jams and
+              incidents, ensuring they are prepared for any road conditions.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Traffic Insights and Analysis</h3>
+
+          <div class="space-y-3">
+            <p>
+              Our traffic insights enable road authorities and traffic
+              management centers to effectively reduce congestion and lower
+              emissions.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <h3>Supporting Delivery and On-Demand Services</h3>
+
+          <div class="space-y-3">
+            <p>
+              Real-time traffic information enhances accurate ETAs, smarter
+              routing, and improved fuel efficiency for delivery and on-demand
+              services.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
