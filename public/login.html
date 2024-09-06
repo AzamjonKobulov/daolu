@@ -161,11 +161,7 @@
         <h1 class="text-base">Authentication required</h1>
 
         <!-- Form -->
-        <form
-          action="https://getform.io/f/aolgyexb"
-          method="POST"
-          class="w-full space-y-5 lg:space-y-8"
-        >
+        <form class="w-full space-y-5 lg:space-y-8">
           <input
             type="email"
             class="h-[51px] w-full border border-brand-gray-200 rounded-md placeholder:text-[15px] placeholder:text-brand-gray-300 outline-brand-gray-300 px-5"
@@ -179,9 +175,13 @@
             name="email"
           />
 
+          <p class="wrong-login hidden text-brand-red">
+            Неправильно указан логин и/или пароль
+          </p>
+
           <button
             type="submit"
-            class="h-12 w-full xs:w-auto bg-brand-purple text-white rounded-full hover:bg-brand-gray-400 transition-all duration-300 px-[50px]"
+            class="login-button h-12 w-full xs:w-auto bg-brand-purple text-white rounded-full hover:bg-brand-gray-400 transition-all duration-300 px-[50px]"
           >
             Log in
           </button>

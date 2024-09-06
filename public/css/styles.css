@@ -767,11 +767,6 @@ video {
   margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -803,17 +798,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(248 247 244 / var(--tw-bg-opacity));
 }
-.bg-brand-red {
+.bg-brand-purple {
   --tw-bg-opacity: 1;
-  background-color: rgb(187 10 30 / var(--tw-bg-opacity));
+  background-color: rgb(78 92 246 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-brand-purple {
-  --tw-bg-opacity: 1;
-  background-color: rgb(78 92 246 / var(--tw-bg-opacity));
 }
 .p-4 {
   padding: 1rem;
@@ -852,9 +843,6 @@ video {
 .pl-5 {
   padding-left: 1.25rem;
 }
-.pt-80 {
-  padding-top: 20rem;
-}
 .pt-20 {
   padding-top: 5rem;
 }
@@ -865,6 +853,10 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -872,13 +864,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-\[15px\] {
-  font-size: 15px;
-}
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 .font-bold {
   font-weight: 700;
@@ -902,8 +887,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.text-\[15\] {
-  color: 15;
+.text-brand-red {
+  --tw-text-opacity: 1;
+  color: rgb(187 10 30 / var(--tw-text-opacity));
 }
 .underline-offset-2 {
   text-underline-offset: 2px;
@@ -1039,10 +1025,6 @@ video {
   background-color: rgb(86 85 99 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-brand-red\/80:hover {
-  background-color: rgb(187 10 30 / 0.8);
-}
-
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1151,12 +1133,6 @@ video {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
-  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-  }
-
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1182,10 +1158,6 @@ video {
 
   .lg\:pt-11 {
     padding-top: 2.75rem;
-  }
-
-  .lg\:pt-80 {
-    padding-top: 20rem;
   }
 
   .lg\:pt-40 {

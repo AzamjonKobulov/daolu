@@ -18,3 +18,9 @@ document.querySelectorAll(".mobile-menu-link").forEach(function (link) {
     document.getElementById("mobile-menu").classList.add("-translate-x-full");
   });
 });
+
+// Login
+document.querySelector(".login-button").addEventListener("click", function (e) {
+  e.preventDefault();
+  document.querySelector(".wrong-login").classList.remove("hidden");
+});
