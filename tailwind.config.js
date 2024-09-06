@@ -21,10 +21,12 @@ module.exports = {
         brand: {
           dark: "#303030",
           red: "#bb0a1e",
+          cream: "#f8f7f4",
           gray: {
             100: "#c9c6c6",
             200: "#d3d3d3",
             300: "#656565",
+            400: "#565563",
           },
         },
       },
