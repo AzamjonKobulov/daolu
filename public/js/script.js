@@ -5,12 +5,14 @@ document
     document
       .getElementById("mobile-menu")
       .classList.remove("-translate-x-full");
+    document.body.classList.add("overflow-hidden");
   });
 
 document
   .getElementById("mobile-menu-close")
   .addEventListener("click", function () {
     document.getElementById("mobile-menu").classList.add("-translate-x-full");
+    document.body.classList.remove("overflow-hidden");
   });
 
 document.querySelectorAll(".mobile-menu-link").forEach(function (link) {
