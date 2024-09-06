@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Daolu | Contact</title>
+    <title>Daolu | Login</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -157,16 +157,8 @@
     <!-- MAIN -->
     <main>
       <!-- Location Services -->
-      <section class="space-y-8 lg:space-y-16">
-        <div class="space-y-3">
-          <h1>Contact Our Team</h1>
-
-          <p>
-            Have questions about our products or interested in a personalized
-            demo? Fill out the form, and one of our specialists will reach out
-            to you shortly.
-          </p>
-        </div>
+      <section class="space-y-4 lg:space-y-8 pt-20 lg:pt-40">
+        <h1 class="text-base">Authentication required</h1>
 
         <!-- Form -->
         <form
@@ -177,7 +169,13 @@
           <input
             type="email"
             class="h-[51px] w-full border border-brand-gray-200 rounded-md placeholder:text-[15px] placeholder:text-brand-gray-300 outline-brand-gray-300 px-5"
-            placeholder="E-mail"
+            placeholder="Enter your email"
+            name="email"
+          />
+          <input
+            type="password"
+            class="h-[51px] w-full border border-brand-gray-200 rounded-md placeholder:text-[15px] placeholder:text-brand-gray-300 outline-brand-gray-300 px-5"
+            placeholder="Enter your account password"
             name="email"
           />
 
@@ -185,7 +183,7 @@
             type="submit"
             class="h-12 w-full xs:w-auto bg-brand-purple text-white rounded-full hover:bg-brand-gray-400 transition-all duration-300 px-[50px]"
           >
-            Submit
+            Loge in
           </button>
         </form>
       </section>
