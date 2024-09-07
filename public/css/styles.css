@@ -632,9 +632,6 @@ video {
 .mt-7 {
   margin-top: 1.75rem;
 }
-.\!mt-6 {
-  margin-top: 1.5rem !important;
-}
 .block {
   display: block;
 }
@@ -714,9 +711,6 @@ video {
 }
 .flex-col {
   flex-direction: column;
-}
-.place-content-center {
-  place-content: center;
 }
 .items-start {
   align-items: flex-start;
@@ -845,10 +839,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
 }
 .pb-0 {
   padding-bottom: 0px;
